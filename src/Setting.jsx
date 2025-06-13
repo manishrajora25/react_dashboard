@@ -10,7 +10,7 @@ const Setting = () => {
     <div className="flex">
     {/* Left Sidebar */}
    
-    <div className="w-[0px]"><h1 className="mt-[25px] px-[45px] font-bold text-[25px] ">Setting</h1></div>
+    <div className="w-[0px]"><h1 className="mt-[30px] px-[30px] font-bold text-[25px] ">Setting</h1></div>
     
     <div className="flex item-center justify-evenly flex-wrap mt-[2%]  py-[70px]">
     <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] ">
@@ -70,7 +70,7 @@ const Setting = () => {
       <HiOutlineArrowRight className=" text-[22px] text-blue-600" />
     </div>
 
-    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] ">
+    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] mt-[30px]">
       {/* Icon and Text Section */}
       <div className=" items-center gap-4">
         {/* Icon */}
@@ -88,7 +88,7 @@ const Setting = () => {
       {/* Arrow Icon */}
       <HiOutlineArrowRight className=" text-[22px] text-blue-600" />
     </div>
-    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[110px] ">
+    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[110px] mt-[30px] ">
       {/* Icon and Text Section */}
       <div className="flex items-center gap-4">
         {/* Icon */}
@@ -107,7 +107,7 @@ const Setting = () => {
       <HiOutlineArrowRight className=" text-[22px] text-blue-600" />
     </div>
 
-    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] ">
+    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] mt-[30px]">
       {/* Icon and Text Section */}
       <div className=" items-center gap-4">
         {/* Icon */}
@@ -127,7 +127,7 @@ const Setting = () => {
     </div>
 
 
-    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] ">
+    <div className="border rounded-lg p-4 w-[300px] flex items-center justify-between hover:shadow-lg cursor-pointer transition h-[130px] mt-[30px]">
       {/* Icon and Text Section */}
       <div className=" items-center gap-4">
         {/* Icon */}

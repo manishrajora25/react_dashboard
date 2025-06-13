@@ -9,7 +9,7 @@ const Dashboard = () => {
 
     </div>
       <div>
-        <h1 className="text-2xl mt-[7%] font-bold mb-8">Dashboard</h1>
+        <h1 className="text-2xl mt-[4%] font-bold mb-6">Dashboard</h1>
         <div>
           <div className="p-6 bg-white  border border-gray-300 rounded-xl shadow-md">
             <h2 className="text-lg font-semibold mb-4">My Tickets</h2>

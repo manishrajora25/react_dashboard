@@ -17,11 +17,11 @@ const LeftSideBar = () => {
   return (
     <>
       <div className="bg-sky-50">
-        <div className="w-[280px] pt-[20px]  text-gray-700 min-h-screen   shadow-md">
+        <div className="w-[280px] pt-[10px]  text-gray-700 min-h-screen   shadow-md">
         <ul className="pt-6 space-y-1 px-4 text-sm">
           <li  classname=" ">
             <a
-              href="#"
+              href="/"
               className="flex items-center gap-3  rounded-md bg-sky-100 text-sky-600 font-medium text-[12px] px-[20px] py-[10px]"
             >
               <RxDashboard className="text-lg" /> Dashboard
@@ -44,7 +44,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/jobcard"
               className="flex items-center gap-3 px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <TbShoppingBag className="text-lg" /> Job Cards
@@ -53,7 +53,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/clients"
               className="flex items-center gap-3 px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <CiFaceSmile className="text-lg" /> Clients
@@ -80,7 +80,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/technicians"
               className="flex items-center justify-between px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <span className="flex items-center gap-3">
@@ -94,7 +94,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/clients"
               className="flex items-center justify-between px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <span className="flex items-center gap-3">
@@ -135,7 +135,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/users"
               className="flex items-center gap-3 px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <AiOutlineUser className="text-lg" /> Users
@@ -144,7 +144,7 @@ const LeftSideBar = () => {
 
           <li  classname="">
             <a
-              href="#"
+              href="/"
               className="flex items-center gap-3 px-[20px] py-[10px] rounded-md hover:bg-blue-200 hover:text-blue-400 text-[12px]"
             >
               <MdLogout className="text-lg" /> Logout
