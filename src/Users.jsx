@@ -19,7 +19,7 @@ function Users() {
   }
   return (
     <div>
-         <div className='w-[90%] m-auto'>
+         <div className='w-[90%] mt-30 mx-8 m-auto'>
               <div className='flex   items-center justify-between mt-5'>
                  <h1 className='text-2xl font-semibold'>Users</h1>
                  <button className='bg-sky-500 hover:bg-sky-600 rounded text-white px-3 py-2 mt-5 font-medium' onClick={Adduser}>+ Add Users</button>

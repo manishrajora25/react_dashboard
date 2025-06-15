@@ -1,6 +1,6 @@
 const Jobcard = () => {
   return (
-    <div className="p-6 bg-gray-50 font-sans min-h-screen  w-[82%]">
+    <div className="pt-30 font-sans min-h-screen  px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col sm:flex-row justify-around items-start sm:items-center mb-6">
         <h1 className="text-3xl font-bold text-gray-800 mb-4 sm:mb-0">Job Cards</h1>
         <div className="flex flex-wrap items-center gap-6">

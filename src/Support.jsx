@@ -13,7 +13,7 @@ function Support() {
      const closeModal = () => setIsModalOpen(false);
 
   return (
-    <div className="  pt-[50px] w-[98%]">
+    <div className="  pt-[100px] w-[98%]">
       <div className="flex item-center justify-between">
       <h1 className="text-2xl font-bold mb-6">Support Tickets</h1>
 
@@ -487,64 +487,3 @@ export default Support;
 
 
 
-
-// import React, { useState } from 'react';
-// import Portal from './Portal';
-// import { GoPlus } from 'react-icons/go';
-
-// const Support = () => {
-//   const [isModalOpen, setIsModalOpen] = useState(false);
-
-//   const openModal = () => setIsModalOpen(true);
-//   const closeModal = () => setIsModalOpen(false);
-
-//   return (
-//     <div className="p-4">
-//       <button
-//         className="flex items-center bg-blue-400 gap-2 px-6 py-3 rounded-lg text-white hover:bg-blue-500"
-//         onClick={openModal}
-//       >
-//         <GoPlus /> Add Client
-//       </button>
-
-//       {isModalOpen && (
-//         <Portal>
-//           <div
-//             className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
-//             onClick={closeModal}
-//           >
-//             <div
-//               className="bg-white p-6 rounded-lg w-[400px] shadow-lg"
-//               onClick={(e) => e.stopPropagation()}
-//             >
-//               <h2 className="text-xl font-bold mb-4">Add Client</h2>
-//               <form>
-//                 <label className="block mb-2">
-//                   Name:
-//                   <input
-//                     type="text"
-//                     className="border border-gray-300 p-2 rounded w-full mt-1"
-//                   />
-//                 </label>
-//                 <button
-//                   type="submit"
-//                   className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-//                 >
-//                   Save
-//                 </button>
-//               </form>
-//               <button
-//                 className="mt-4 text-red-500 hover:underline"
-//                 onClick={closeModal}
-//               >
-//                 Cancel
-//               </button>
-//             </div>
-//           </div>
-//         </Portal>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Support;

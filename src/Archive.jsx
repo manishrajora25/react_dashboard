@@ -8,7 +8,7 @@ const Archive = () => {
       {/* Left Sidebar */}
    
       <div>
-        <h1 className="text-[27px] font-bold m-[50px]">Archive</h1>
+        <h1 className="text-[27px] font-bold m-[50px] mt-30">Archive</h1>
         <div className="flex gap-4 mx-[50px]">
           {/* Button 1 */}
           <button className="flex items-center justify-between w-[300px] p-4 border rounded-lg hover:shadow-md cursor-pointer">

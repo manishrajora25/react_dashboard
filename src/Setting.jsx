@@ -7,7 +7,7 @@ const Setting = () => {
  
 
   return (
-    <div className="flex">
+    <div className="flex mt-20">
     {/* Left Sidebar */}
    
     <div className="w-[0px]"><h1 className="mt-[30px] px-[30px] font-bold text-[25px] ">Setting</h1></div>

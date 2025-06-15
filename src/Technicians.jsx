@@ -4,7 +4,7 @@ import { HiOutlinePencil } from "react-icons/hi2";
 
 const Technicians = () => {
   return (
-    <div className="p-10 w-[80%] bg-gray-100 min-h-screen flex justify-center">
+    <div className=" mt-4.5 pt-1.5 p-3 w-[99%] full min-h-screen">
       <div className="w-full max-w-7xl">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold text-gray-800">Technicians</h1>
